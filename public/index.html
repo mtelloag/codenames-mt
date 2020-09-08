@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Names</title>
+    <link rel="stylesheet" href="/static/style.css"></link>
+    <script src="/socket.io/socket.io.js"></script> 
+    <script src="/static/objects.js"></script>
+    <script src="/static/app.js"></script>
+    <script src="/static/words.js" charset="utf-8"></script>
+</head>
+<body >
+    <div id="container">
+        <div class="application">
+            <div id="topbar">
+                <p class=a>
+                    CODENAMES-MT
+                </p>
+            </div>
+            <div id="lobby">
+                <div id="available-games">
+                    <div id="new-game">
+                        <form id="myForm">
+                            <p class=b>
+                                Play Codenames-MT 2020 beta version inpired in the page of <a href="https://www.horsepaste.com" >https://www.horsepaste.com</a>. The game can be played online across multiple devices on a shared board. Create a new room game and share the link with your friends.
+                            </p>
+                            <label for="myRoom">Create Room :</label>
+                            <input id="myRoom" name="roomname">
+                            <input id="myBtn" type="submit" value="Send Me!">
+                            <div id="game-settings"></div>
+                            <div id="game-options"></div>
+                        </form>
+                    </div>
+                    <div id="wordsList">
+
+                    </div>
+                </div>
+            </div>
+            <div id='sidebar-left'>
+
+            </div>
+            <div id= "sidebar-right">
+                
+            </div>
+            <div id="footer"></div>
+        </div>
+    </div>   
+</body>
+</html>
